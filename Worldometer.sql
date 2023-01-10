@@ -40,3 +40,20 @@ ALTER TABLE dbo.worldometer_data
 
 ALTER TABLE dbo.worldometer_data
 	DROP COLUMN [WHO Region];
+
+--alter the data type of the columns 
+ALTER TABLE dbo.worldometer_data
+	ALTER COLUMN Populations FLOAT;
+
+ALTER TABLE dbo.worldometer_data
+	ALTER COLUMN TotalTests FLOAT;
+
+--Tests per continent
+SELECT Continent, SUM(TotalTests) AS Tests
+FROM dbo.worldometer_data
+GROUP BY Continent;
+
+--Population per continent
+SELECT Continent, SUM(Populations) as Population
+FROM dbo.worldometer_data
+GROUP BY Continent;
