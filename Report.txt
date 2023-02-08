@@ -1,0 +1,11 @@
+STATEMENT OF THE PROBLEM - Identify the trends in Covid-19 in different Countries
+
+SOLUTION 
+- About 36% of the recorded cases recovered from Covid-19
+- Only about 4% of the recorded cases led to deaths
+- North American countries recorded the most cases and the most deaths
+- Australian countries recorded the least cases and in return, the least amount of deaths
+- European countries recorded the highest amount of tests
+- USA recorded the highest amount of cases and deaths 
+- Brazil recorded the highest amount of recovery 
+- New Cases, deaths and recorded cases increased daily in 2020
